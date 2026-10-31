@@ -1,0 +1,8 @@
+services:
+  spark-iceberg:
+    image: tabulario/spark-iceberg
+    container_name: spark-iceberg
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+      
