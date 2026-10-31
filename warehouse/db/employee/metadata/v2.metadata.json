@@ -1,0 +1,82 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "20317e92-9314-4160-be52-1e49aadc4243",
+  "location" : "warehouse/db/employee",
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1793476890931,
+  "last-column-id" : 3,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "emp_id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "salary",
+      "required" : false,
+      "type" : "double"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "codespace",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 5847173659125938066,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 5847173659125938066,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 5847173659125938066,
+    "timestamp-ms" : 1793476890931,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1793476881529",
+      "added-data-files" : "1",
+      "added-records" : "3",
+      "added-files-size" : "934",
+      "changed-partition-count" : "1",
+      "total-records" : "3",
+      "total-files-size" : "934",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "warehouse/db/employee/metadata/snap-5847173659125938066-1-ed73bbf8-d3e1-496f-aacb-140f9c3ff7de.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1793476890931,
+    "snapshot-id" : 5847173659125938066
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1793476585780,
+    "metadata-file" : "warehouse/db/employee/metadata/v1.metadata.json"
+  } ]
+}

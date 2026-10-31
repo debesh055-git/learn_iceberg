@@ -1,0 +1,51 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "20317e92-9314-4160-be52-1e49aadc4243",
+  "location" : "warehouse/db/employee",
+  "last-sequence-number" : 0,
+  "last-updated-ms" : 1793476585780,
+  "last-column-id" : 3,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "emp_id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "salary",
+      "required" : false,
+      "type" : "double"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "codespace",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : -1,
+  "refs" : { },
+  "snapshots" : [ ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ ],
+  "metadata-log" : [ ]
+}
